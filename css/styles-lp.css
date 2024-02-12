@@ -4,6 +4,9 @@
   height: auto;
 }
 
+.bg-secondary {
+  background-color: black ;
+}
 footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git"]:hover
 {
   transform: scale(1.01); /* Couleur du texte au survol */

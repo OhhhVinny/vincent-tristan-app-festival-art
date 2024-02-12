@@ -1,2 +1,51 @@
-/*----- Styles Généraux -----*/
-/*----- Styles Hero -----*/
+.logoNavbar {
+    width: 75px;
+
+
+}
+
+.profile-img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git"]:hover {
+    transform: scale(1.01);
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 767px) {
+    footer .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.search-input {
+    padding-left: 2rem;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.cadreApp {
+    width: 100%;
+    aspect-ratio: 5/9;
+    max-width: 400px;
+}
