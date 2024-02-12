@@ -1,2 +1,16 @@
 /*----- Styles Généraux -----*/
+.logoNavbar {
+  width: 75px;
+  height: auto;
+}
+
+footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git"]:hover
+{
+  transform: scale(1.01); /* Couleur du texte au survol */
+}
 /*----- Styles Hero -----*/
+.cadreApp {
+  width: 100%;
+  aspect-ratio: 5/9;
+  max-width: 400px;
+}
