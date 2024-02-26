@@ -1,6 +1,6 @@
 
 body.background1 {
-    background-image: url("../assets/artworks/background2.png");
+    background-image: url("../assets/artworks/bg1.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -61,3 +61,67 @@ footer {
 .btn-outline-primary {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  #featuredArtworks {
+    width: 140%;
+    overflow-x: hidden;
+  }
+  
+  /* Styles for the cards within the featured artworks section */
+  #featuredArtworks .card {
+    max-width: 200px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    /* Add additional styling as needed for the cards */
+  }
+  
+  /* Styles for the artist thumbnails */
+  .artist-thumbnail {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .text-left {
+   margin-left: 30px;
+  }
+  
+  /* Styles for the card in the "Autres œuvres et performances" section */
+#otherArtworks .card {
+    width: 90%;
+    max-width: none; /* Remove max-width restriction */
+    margin-top: 20px;
+    margin: 20px auto 0;;
+    color: white;
+    background-color: black;
+    
+  }
+  
+  #otherArtworks .card-img-top {
+    height: 20vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  #otherArtworks .artist-thumbnail {
+    width: 30px; /* Adjust the width of the artist thumbnail */
+    height: 30px; /* Adjust the height of the artist thumbnail */
+    border-radius: 50%; /* Make it circular */
+  }
+
+  hr {
+    width: 50%; 
+    margin: auto;
+    background-color: black
+    
+   
+  }
+
+  span {
+  
+   color: #6966ff;
+  }
+  
+  

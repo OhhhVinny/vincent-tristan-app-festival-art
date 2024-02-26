@@ -1,5 +1,14 @@
+
+body.background1 {
+    background-image: url("../assets/artworks/bg1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
 .img-fluid {
     object-fit: cover;
+    height: 33vh;
 
 
 }
