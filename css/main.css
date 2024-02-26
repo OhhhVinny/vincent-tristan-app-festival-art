@@ -13,6 +13,8 @@
   --mauve: #6966ff;
 }
 
+/*----- Styles Généraux -----*/
+
 body {
   font-family: "coolvetica";
 }
@@ -53,6 +55,3 @@ h6,
   font-weight: 200;
   color: var(--black);
 }
-
-/*----- Styles Généraux -----*/
-/*----- Styles Hero -----*/

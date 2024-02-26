@@ -4,12 +4,9 @@
   height: auto;
 }
 
-.bg-secondary {
-  background-color: black ;
-}
 footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git"]:hover
 {
-  transform: scale(1.01); /* Couleur du texte au survol */
+  transform: scale(1.01);
 }
 /*----- Styles Hero -----*/
 .cadreApp {
@@ -17,12 +14,44 @@ footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git
   aspect-ratio: 5/9;
   max-width: 400px;
 }
-iframe{
+iframe {
   width: 100%;
   height: 100%;
-  border: 2px solid green;
 }
 
-#hero{
-  padding-top: 90px;
+#hero {
+  padding-top: 100px;
+}
+
+/*----- Styles Accordeon -----*/
+
+#accordionFAQ {
+  background-color: var(--bs-secondary);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.infolettre {
+  background-image: url("../assets/arriere_plans/adrien-olichon-WNs0bW8kHTM-unsplash.jpg");
+  background-size: cover;
+  color: var(--bs-white);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.infolettre button {
+  margin-top: 20px;
+}
+
+.modal-dialog {
+  max-width: 50%;
+}
+
+.infolettre-content-container {
+  width: 100%;
+  background-color: var(--bs-info);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
