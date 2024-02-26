@@ -1,133 +1,155 @@
-
 body.background1 {
-    background-image: url("../assets/artworks/bg1.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
+  background-image: url("../assets/artworks/bg1.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 .logoNavbar {
-    width: 75px;
+  width: 75px;
 
 
 }
 
 .profile-img {
-    height: 40px;
-    border-radius: 50%;
+  height: 40px;
+  border-radius: 50%;
 }
 
 footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git"]:hover {
-    transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 footer {
-    background-color: grey;
-    color: #fff;
-    padding: 1rem;
-    margin-top: 1rem;
+  background-color: grey;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 
 @media (max-width: 767px) {
-    footer .container {
-        padding-right: 0;
-        padding-left: 0;
-    }
+  footer .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .search-input {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .search-icon {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
 }
 
 .list-unstyled {
-    padding-left: 0;
-    list-style: none;
+  padding-left: 0;
+  list-style: none;
 }
 
 .cadreApp {
-    width: 100%;
-    aspect-ratio: 5/9;
-    max-width: 400px;
+  width: 100%;
+  aspect-ratio: 5/9;
+  max-width: 400px;
 }
 
 .btn-outline-primary {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-  #featuredArtworks {
-    width: 140%;
-    overflow-x: hidden;
-  }
-  
 
-  #featuredArtworks .card {
-    max-width: 200px;
-    margin: 10px;
-    background-color: black;
-    color: white;
 
-  }
+#featuredArtworks .card {
+  max-width: 200px;
+  margin-left: 20px;
+  margin-right: -20px;
+  background-color: black;
+  color: white;
 
-  .artist-thumbnail {
-    width: 30px; 
-    height: 30px; 
-    border-radius: 50%;
-    object-fit: cover;
-  }
+}
 
-  .text-left {
-   margin-left: 30px;
-  }
-  
+.artist-thumbnail {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-left {
+  margin-left: 30px;
+}
+
 
 #otherArtworks .card {
-    width: 90%;
-    max-width: none; 
-    margin-top: 20px;
-    margin: 20px auto 0;;
-    color: white;
-    background-color: black;
-    
-  }
-  
-  #otherArtworks .card-img-top {
-    height: 20vh;
-    object-fit: cover;
-    object-position: center;
-  }
-  
-  #otherArtworks .artist-thumbnail {
-    width: 30px;
-    height: 30px; 
-    border-radius: 50%;
-  }
+  width: 90%;
+  max-width: none;
+  margin-top: 20px;
+  margin: 20px auto 0;
+  ;
+  color: white;
+  background-color: black;
 
-  hr {
-    width: 50%; 
-    margin: auto;
-    background-color: black
-    
-   
-  }
+}
 
-  span {
-  
-   color: #6966ff;
-  }
+#otherArtworks .card-img-top {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+}
 
-  .card-img-top {
-    height: 20vh; 
-    object-fit: cover; 
-    object-position: center;
- 
-   }
-  
-  
+#otherArtworks .artist-thumbnail {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  background-color: black
+}
+
+span {
+
+  color: #6966ff;
+}
+
+.card-img-top {
+  height: 20vh;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.swiper-filters {
+  overflow: hidden;
+}
+
+.swiper-filters .swiper-slide {
+  width: auto;
+  margin-right: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-featured-artworks {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-featured-artworks .swiper-slide {
+  width: auto;
+  margin-right: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
