@@ -1,9 +1,6 @@
 
 body.background1 {
-    background-image: url("../assets/artworks/bg1.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+   background-color: black;
   }
 
 .img-fluid {
@@ -64,3 +61,44 @@ footer {
     aspect-ratio: 5/9;
     max-width: 400px;
 }
+
+.img-fluid {
+    width: 100%;
+    object-position: center;
+    
+  }
+
+  main {
+    position: relative;
+    background-color: black;
+    color: white;
+   
+  }
+
+  .allo {
+    
+        position: sticky;
+        z-index: 1;
+       
+   
+  }
+
+  .bi.bi-calendar {
+    
+   margin-left: 20px;
+
+}
+
+.modal-content {
+    
+    color: black;
+ 
+ }
+
+ .accordion {
+	--bs-accordion-btn-color: black;
+	--bs-accordion-btn-bg: #6966ff;
+	--bs-accordion-active-color: white;
+	--bs-accordion-active-bg: #6966ff;
+}
+

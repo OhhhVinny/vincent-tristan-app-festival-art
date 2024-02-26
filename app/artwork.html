@@ -5,25 +5,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Artwork</title>
+  <title>Artwork Mutek</title>
+  <link rel="icon" type="image/x-icon" href="../assets/logo/favicon-mutek.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/styles-artwork.css" />
 </head>
 
 <body class="background1">
 
+
+
   <header>
     <nav class="navbar navbar-light fixed-top" style="background-color: transparent;">
       <div class="container">
         <a href="index.html"><button class="btn btn-light">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-          </svg>
-        </button></a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-chevron-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+            </svg>
+          </button></a>
 
-        <button class="btn btn-light ms-auto">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+        <button class="btn btn-light ms-auto" id="heartButton">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
           </svg>
         </button>
       </div>
@@ -31,34 +36,82 @@
   </header>
 
   <main>
-    <div class="container mt-5">
-      <section>
-        <img src="../assets/artworks/kay10.jpg" alt="Artwork Image" class="img-fluid">
-      </section>
 
+    <section>
+      <img src="../assets/artworks/paristexas.webp" alt="Artwork Image" class="img-fluid">
+    </section>
+
+    <div class=" container mt-5">
       <section class="mt-4">
-        <h1>Nom de l'Œuvre</h1>
+        <h1>SPECTACLE DE PARIS TEXAS</h1>
         <div class="mt-3">
-          <i class="bi bi-geo-alt"></i> Lieu de l'expo
-          <i class="bi bi-calendar"></i> Dates d'exposition/présentation
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"
+            viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+          </svg> Centre Bell
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
+          </svg> 29 Février 2024
         </div>
       </section>
 
       <section class="mt-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Artiste</h5>
-            <p class="card-text">Bref texte sur l'artiste.</p>
-            <button class="btn btn-primary">En savoir plus</button>
+            <h5 class="card-title">PARIS TEXAS</h5>
+            <img src="../assets/artists/ptartist.png" class="card-img-top" alt="Artwork 4 Image"
+              style="height: 30vh; object-fit: cover; object-position: center;">
+            <p class="card-text">Paris Texas est un duo américain de hip-hop alternatif fondé à Los Angeles, en
+              Californie, en 2018. Il a été créé par les rappeurs-producteurs Louie Pastel et Felix. Le nom du duo est
+              une référence au film de 1984, Paris, Texas.</p>
+            <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#artistModal">En savoir plus</button>
           </div>
         </div>
 
-        <!-- Ajoutez d'autres cartes artistes ici si nécessaire -->
+        <div class="modal fade" id="artistModal" tabindex="-1" aria-labelledby="artistModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="artistModalLabel">PARIS TEXAS</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Paris Texas est un duo américain de hip-hop alternatif fondé à Los Angeles, en Californie, en 2018.
+                  Il a été créé par les rappeurs-producteurs Louie Pastel et Felix. Le nom du duo est une référence au
+                  film de 1984, Paris, Texas.
+                  Paris Texas est un duo émergent de rap de Compton avec une série de singles prometteurs récemment
+                  sortis. Tout a commencé il y a deux mois avec "HEAVY METAL", remarquable pour la guitare principale de
+                  son instrumental, aussi épurée qu'une démo des White Stripes, tandis que les rappeurs délivrent des
+                  couplets lysergiques pleins de flexions.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </section>
 
       <section class="mt-4">
-        <h2>Description de l'Œuvre</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+        <h2>Description du spectacle</h2>
+        <p>musiques performées:</p>
+        <ul>
+
+        <li>TenThirtySeven</li>
+        <li>DnD</li>
+        <li>Sean-Jared</li>
+        <li>Closed Caption</li>
+        <li>Bullet Man</li>
+        <li>NuWhip"</li>
+        <li>Panic!!!</li>
+        <li>Everybody's Safe Until</li>
+        <li>Lift Off</li>
+        <li>Earth-2</li>
+
+         
+        </ul>
       </section>
 
       <section class="mt-4">
@@ -89,7 +142,7 @@
                     <label for="date" class="form-label">Date</label>
                     <input type="date" class="form-control" id="date" required>
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-dark">Submit</button>
                 </form>
               </div>
             </div>
