@@ -1,5 +1,5 @@
 /*----- Styles Généraux -----*/
-body{
+body {
   background-size: 100%;
   background-attachment: fixed;
 }
@@ -17,37 +17,50 @@ footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git
 .cadreApp {
   width: 100%;
   aspect-ratio: 5/9;
-  max-width: 400px;
 }
+
 iframe {
-  width: 100%;
-  height: 70%;
+  width: 60%;
+  height: 50%;
 }
 
 #hero {
-  padding-top: 100px;
 }
 
 /*----- Styles fonctionnalite -----*/
 
-.card{
-}
-
 /*----- Styles Accordeon -----*/
 
-#accordionFAQ {
+#FAQ {
+  width: 100%;
   background-color: var(--bs-secondary);
-  border: 3px solid var(--bs-info);
+  border: 4px solid var(--bs-info);
   text-align: center;
-  margin: 20px;
   padding: 20px;
   color: white;
 }
 
+/*----- Styles temoignage -----*/
+.carteTemoignage {
+  border: 4px solid var(--bs-secondary);
+}
+
+.portrait {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*----- Styles infolettre -----*/
-.infolettre {
+#infolettre {
   background-image: url("../assets/arriere_plans/adrien-olichon-WNs0bW8kHTM-unsplash.jpg");
-  background-size: contain;
+  background-size: cover;
   color: var(--bs-white);
   padding: 100px 0;
   text-align: center;
@@ -66,6 +79,6 @@ iframe {
   background-color: var(--bs-secondary);
   padding: 20px;
   border-radius: 10px;
-  border: 3px solid var(--bs-white);
+  border: 4px solid var(--bs-white);
   margin-top: 20px;
 }

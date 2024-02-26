@@ -33,7 +33,7 @@
                 <a class="nav-link" href="#fonctionnalite">Fonctionnalités</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#temoignage">Témoignages</a>
+                <a class="nav-link" href="#section-testimonials">Témoignages</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#FAQ">FAQ</a>
@@ -50,248 +50,378 @@
     <!----------------------->
     <!----- Section Héro----->
     <!----------------------->
-    <div class="container mt-2 mb-0" id="hero">
-      <div class="row d-flex justify-content-center">
-        <div class="col-12 col-lg-6 text-center text-lg-start">
-          <h1>Découvrez l'appli<br />officielle du festival<br />MUTEK</h1>
-          <p>
-            Tirez profit de cette appli qui rendra votre<br />expérience fluide
-            et sans compremis.
-          </p>
-          <a href="#" class="btn btn-secondary">Téléchargez maintenant!</a>
-        </div>
-        <div class="col-12 col-lg-6 cadreApp">
-          <iframe src="/app/index.html" scrolling="no"></iframe>
+    <section id="hero">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 text-center text-lg-start">
+            <h1 class="mt-4 mb-0">
+              Découvrez l'appli<br />officielle du festival<br />MUTEK
+            </h1>
+            <p>
+              Tirez profit de cette appli qui rendra votre<br />expérience
+              fluide et sans compremis.
+            </p>
+            <a href="#" class="btn btn-secondary">Téléchargez maintenant!</a>
+          </div>
+          <div
+            class="col-12 col-lg-6 cadreApp d-flex justify-content-center align-items-center"
+          >
+            <iframe src="/app/index.html" scrolling="no"></iframe>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!----------------------------------->
     <!----- Section Fonctionnalités ----->
     <!----------------------------------->
-            <div class="container mt-0 mb-2" id="fonctionnalite">
-              <div class="row">
-                <div class="col">
-                  <h2 class="text-center">Fonctionnalités</h2>
-                  <p class="text-center">
-                    En téléchargeant notre appli, vous allez profiter d'une foule de fonctionnalités qui vous permettront de vivre une expérience totale et complète lors des expositions et des performances du festival.
-                  </p>
+    <section class="bg-secondary mb-3" id="section-features">
+      <div class="container mt-4 mb-4" id="fonctionnalite">
+        <div class="row">
+          <div class="col text-dark">
+            <h2 class="mt-4 text-center">Fonctionnalités</h2>
+            <p class="text-center">
+              En téléchargeant notre appli, vous allez profiter d'une foule de
+              fonctionnalités qui vous permettront de vivre une expérience
+              totale et complète lors des expositions et des performances du
+              festival.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-alarm fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Programmation complète et modulable
+                  </h5>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-alarm fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Programmation complète et modulable</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                        Liste complète des évenements avec leur horaire.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-calendar-week fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Création d'un horraire personnalisé</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                        Créez-vous un horraire propre à vous pour préparer votre visite!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-collection-fill fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Catalogue des oeuvres et artistes</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                        L'entiereté des oeuvres et artistes qui participent ou qui ont déja participés au festival!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-ticket-perforated-fill fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Achat de billet intégré à l'appli</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                        Procurez-vous vos billets de manière sécuritaire directement sur l'appli!
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-geo-fill fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Repérage d'amis sur la carte interactive</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                          Fonctionnalitée de l'application permettant de situer des amis ou famille
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 mt-4 mb-4">
-                  <div class="card border-secondary">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <i class="bi bi-cart4 fs-3 me-3"></i>
-                        <h5 class="card-title mb-0">Achat de produit MUTEK</h5>
-                      </div>
-                      <p class="card-text mt-3">
-                        Il est possible de pouvoir se procurer les dernières éditions de notre collection de vêtement aux couleurs de MUTEK!
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <p class="card-text mt-3">
+                  Liste complète des évenements avec leur horaire.
+                </p>
               </div>
             </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-calendar-week fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Création d'un horraire personnalisé
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Créez-vous un horraire propre à vous pour préparer votre
+                  visite!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-collection-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Catalogue des oeuvres et artistes
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  L'entiereté des oeuvres et artistes qui participent ou qui ont
+                  déja participés au festival!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-ticket-perforated-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Achat de billet intégré à l'appli
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Procurez-vous vos billets de manière sécuritaire directement
+                  sur l'appli!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-geo-fill fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">
+                    Repérage d'amis sur la carte interactive
+                  </h5>
+                </div>
+                <p class="card-text mt-3">
+                  Fonctionnalitée de l'application permettant de situer des amis
+                  ou famille
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mt-4 mb-4">
+            <div class="card border-dark border-3">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-cart4 fs-3 me-3"></i>
+                  <h5 class="card-title mb-0">Achat de produit MUTEK</h5>
+                </div>
+                <p class="card-text mt-3">
+                  Il est possible de pouvoir se procurer les dernières éditions
+                  de notre collection de vêtement aux couleurs de MUTEK!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!------------------------------->
     <!----- Section Témoignages ----->
     <!------------------------------->
+    <section id="section-testimonials" class="bg-light pt-5 pb-5 mt-3 mb-3">
+      <div class="container">
+        <!-- Première rangée -->
+        <div class="row">
+          <div class="col text-center">
+            <h2>Témoignages</h2>
+            <p class="fs-5">
+              Voici ce que nos utilisateurs satisfaits disent à propos de notre
+              application.
+            </p>
+          </div>
+        </div>
 
+        <!-- Deuxième rangée -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4">
+            <div class="card">
+              <div class="card-body carteTemoignage">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                <img src="/assets/temoignage/harps-joseph-tAvpDE7fXgY-unsplash.jpg" class="img-fluid mb-2 portrait">
+                <h5 class="card-title m-3">Antoine</h5>
+                <p class="card-text m-3">
+                  "Une expérience incroyable! Les performances artistiques m'ont transporté dans un autre monde. Bravo à l'équipe MUTEK!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mt-4">
+            <div class="card position-relative">
+              <div class="card-body carteTemoignage">
+                <img src="/assets/temoignage/jeremy-brady-B7X7R_Q0c-c-unsplash.jpg" class="img-fluid mb-2 portrait">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                
+                <h5 class="card-title m-3">Hugo</h5>
+                <p class="card-text m-3">
+                  "J'ai adoré chaque moment du festival MUTEK. Les fonctionnalités de l'appli ont rendu ma visite encore plus mémorable!"
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mt-4">
+            <div class="card position-relative">
+              <div class="card-body carteTemoignage">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                <img src="/assets/temoignage/julian-hochgesang-DqYY6K9xkf4-unsplash.jpg" class="img-fluid mb-2 portrait">
+                <h5 class="card-title m-3">Mégane</h5>
+                <p class="card-text m-3">
+                  "Le festival MUTEK est une véritable pépite. Les horaires flexibles et la facilité de navigation ont enrichi mon expérience artistique."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mt-4">
+            <div class="card position-relative">
+              <div class="card-body carteTemoignage">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                <img src="/assets/temoignage/nihon-graphy-M8paby2EcxU-unsplash.jpg" class="img-fluid mb-2 portrait">
+                <h5 class="card-title m-3">Clara</h5>
+                <p class="card-text m-3">
+                  "Un événement exceptionnel! La carte interactive m'a permis de retrouver mes amis dans la foule et de partager des moments inoubliables."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 offset-lg-3 mt-4">
+            <div class="card position-relative">
+              <div class="card-body carteTemoignage">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                <img src="/assets/temoignage/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" class="img-fluid mb-2 portrait">
+                <h5 class="card-title m-3">Noémie</h5>
+                <p class="card-text m-3">
+                  "MUTEK a su capturer mon cœur avec sa programmation diversifiée. L'achat de billets intégré a facilité tout le processus."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3 mt-4">
+            <div class="card position-relative">
+              <div class="card-body carteTemoignage">
+                <div class="d-flex align-items-center quote">
+                  <i class="bi bi-chat-quote fs-1"></i>
+                </div>
+                <img src="/assets/temoignage/thought-catalog--v7EOw5SA4I-unsplash (1).jpg" class="img-fluid mb-2 portrait">
+                <h5 class="card-title m-3">Clara</h5>
+                <p class="card-text m-3">
+                  "Les produits MUTEK sont à la hauteur de l'innovation du festival. J'ai adoré acheter mes souvenirs directement depuis l'appli!"
+                </p>
+              </div>
+            </div>
+          </div>
+    </section>
 
     <!---------------------->
     <!----- Section FAQ----->
     <!---------------------->
-    <div class="container" id="FAQ">
-      <div class="accordion" id="accordionFAQ">
-        <h2 class="m-4">FAQ - Foire aux question</h2>
-        <div class="accordion-item">
-          <h3 class="accordion-header" id="titreUn">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
+    <section id="FAQ" class="mt-3 mb-3">
+      <div class="container">
+        <div class="accordion" id="accordionFAQ">
+          <h2 class="m-4">FAQ - Foire aux question</h2>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreUn">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Qu'est-ce que MUTEK
+              </button>
+            </h3>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreUn"
+              data-bs-parent="#accordionFAQ"
             >
-              Qu'est-ce que MUTEK
-            </button>
-          </h3>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="titreUn"
-            data-bs-parent="#accordionFAQ"
-          >
-            <div class="accordion-body">
-              MUTEK est un <strong>organisme sans but lucratif</strong>, dédié à
-              la diffusion et au développement des formes émergentes de la
-              création numérique sonore, musicale, visuelle. Son mandat : offrir
-              aux artistes les plus originaux et visionnaires du domaine, un
-              tremplin visant à les faire connaître et les propulser le plus
-              loin possible dans leur concept de création, et ce, dans une
-              dynamique d'initiation, de sensibilisation et de développement de
-              nouveaux publics.
+              <div class="accordion-body">
+                MUTEK est un <strong>organisme sans but lucratif</strong>, dédié
+                à la diffusion et au développement des formes émergentes de la
+                création numérique sonore, musicale, visuelle. Son mandat :
+                offrir aux artistes les plus originaux et visionnaires du
+                domaine, un tremplin visant à les faire connaître et les
+                propulser le plus loin possible dans leur concept de création,
+                et ce, dans une dynamique d'initiation, de sensibilisation et de
+                développement de nouveaux publics.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h3 class="accordion-header" id="titreDeux">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreDeux">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Où se déroule le festival?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreDeux"
+              data-bs-parent="#accordionFAQ"
             >
-              Où se déroule le festival?
-            </button>
-          </h3>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="titreDeux"
-            data-bs-parent="#accordionFAQ"
-          >
-            <div class="accordion-body">
-              Aujourd'hui, un réseau MUTEK existe, et comporte des ramifications
-              en Amérique du Nord, en Amérique du Sud, en Asie et en Europe; une
-              tribune essentielle pour explorer et promouvoir un contenu
-              artistique varié, reflétant une effervescence culturelle très
-              actuelle et mondiale.
+              <div class="accordion-body">
+                Aujourd'hui, un réseau MUTEK existe, et comporte des
+                ramifications en Amérique du Nord, en Amérique du Sud, en Asie
+                et en Europe; une tribune essentielle pour explorer et
+                promouvoir un contenu artistique varié, reflétant une
+                effervescence culturelle très actuelle et mondiale.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h3 class="accordion-header" id="titreTrois">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="titreTrois">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Croissance du festival
+              </button>
+            </h3>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="titreTrois"
+              data-bs-parent="#accordionFAQ"
             >
-              Croissance du festival
-            </button>
-          </h3>
-          <div
-            id="collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="titreTrois"
-            data-bs-parent="#accordionFAQ"
-          >
-            <div class="accordion-body">
-              Au fil des ans, le Festival MUTEK a présenté un nombre
-              considérable d'artistes reconnus, tout en accordant une place
-              importante à ceux de la relève - chaque édition comporte
-              d'ailleurs une quantité remarquable de premières canadiennes,
-              nord-américaines et internationales. Le Festival se déroule dans
-              un contexte convivial qui favorise les rencontres et les échanges
-              entre les artistes, les professionnels et le public; c'est un
-              véritable lieu de convergence où les intervenants, venus de
-              partout dans le monde se réunissent et profitent d'un contexte de
-              réseautage actif se traduisant souvent par de multiples et
-              intéressantes retombées.
+              <div class="accordion-body">
+                Au fil des ans, le Festival MUTEK a présenté un nombre
+                considérable d'artistes reconnus, tout en accordant une place
+                importante à ceux de la relève - chaque édition comporte
+                d'ailleurs une quantité remarquable de premières canadiennes,
+                nord-américaines et internationales. Le Festival se déroule dans
+                un contexte convivial qui favorise les rencontres et les
+                échanges entre les artistes, les professionnels et le public;
+                c'est un véritable lieu de convergence où les intervenants,
+                venus de partout dans le monde se réunissent et profitent d'un
+                contexte de réseautage actif se traduisant souvent par de
+                multiples et intéressantes retombées.
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!----------------------------->
     <!----- Section Infolettre----->
     <!----------------------------->
-    <div class="container" id="infolettre">
-      <div class="row">
-        <div class="col-12 text-center text-md-start p-4 infolettre">
-          <div class="col-12 col-md-6 offset-md-6 infolettre-content">
-            <h2>Infolettre</h2>
-            <p>
-              Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
-              les mises-à-jour et nouvelles fonctionnalités de l'application, en
-              plus de recevoir en avant-première les détails des prochaines
-              éditions du festival.
-            </p>
-            <button
-              type="button"
-              class="btn btn-dark btn-lg"
-              data-bs-toggle="modal"
-              data-bs-target="#infolettreModal"
-            >
-              Je m'abonne
-            </button>
+    <section id="infolettre" class="mt-3">
+      <div class="container ">
+        <div class="row">
+          <div class="col-12 text-center text-md-start p-4 infolettre">
+            <div class="col-12 col-md-6 offset-md-6 infolettre-content">
+              <h2>Infolettre</h2>
+              <p>
+                Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
+                les mises-à-jour et nouvelles fonctionnalités de l'application,
+                en plus de recevoir en avant-première les détails des prochaines
+                éditions du festival.
+              </p>
+              <button
+                type="button"
+                class="btn btn-dark btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#infolettreModal"
+              >
+                Je m'abonne
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!----------------------------->
     <!----- Fenetre modale----->
@@ -306,9 +436,7 @@
       <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="infolettreModal">
-              Restez informé !
-            </h5>
+            <h5 class="modal-title" id="infolettreModal">Restez informé !</h5>
             <button
               type="button"
               class="btn-close"
@@ -355,7 +483,7 @@
     <!----- Footer----->
     <!----------------->
 
-    <footer class="bg-dark text-light p-4 mt-3">
+    <footer class="bg-dark text-light p-4">
       <div
         class="container d-lg-flex justify-content-between align-items-center text-center text-lg-start"
       >
