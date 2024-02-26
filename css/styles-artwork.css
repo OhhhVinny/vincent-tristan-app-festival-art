@@ -1,10 +1,8 @@
+.img-fluid {
+    object-fit: cover;
 
-body.background1 {
-    background-image: url("../assets/artworks/background2.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
+
+}
 
 .logoNavbar {
     width: 75px;
@@ -57,7 +55,3 @@ footer {
     aspect-ratio: 5/9;
     max-width: 400px;
 }
-
-.btn-outline-primary {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
