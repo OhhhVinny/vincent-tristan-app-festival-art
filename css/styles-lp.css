@@ -62,6 +62,11 @@ footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git
   border-radius: 25px;
 }
 
+.flecheSwiper{
+  color: var(--bs-primary);
+  background: var(--bs-white);
+}
+
 /*----- Styles Accordeon -----*/
 
 #FAQ {
