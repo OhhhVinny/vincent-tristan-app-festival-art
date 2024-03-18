@@ -100,3 +100,7 @@ main {
     --bs-accordion-active-color: white;
     --bs-accordion-active-bg: #6966ff;
 }
+.footer-logo {
+    width: 120px;
+    padding-bottom: 10px;
+    }
