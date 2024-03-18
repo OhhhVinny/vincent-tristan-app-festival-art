@@ -6,7 +6,8 @@ body.background1 {
 }
 
 .logoNavbar {
-  width: 75px;
+ height: 40px;
+ width: auto;
 
 
 }
@@ -36,13 +37,19 @@ footer {
 }
 
 .search-input {
-  padding-left: 2rem;
+  padding-left: 40px;
 }
 
-.search-icon {
+.input-group{
+  position: relative;
+}
+
+
+.bi-search {
   position: absolute;
   top: 50%;
-  left: 10px;
+  left: 15px;
+  z-index: 1;
   transform: translateY(-50%);
 }
 
@@ -131,7 +138,7 @@ span {
 
 .swiper-filters .swiper-slide {
   width: auto;
-  margin-right: 10px;
+  margin-right: -20px;
 }
 
 .swiper-button-next,
@@ -146,10 +153,48 @@ span {
 
 .swiper-featured-artworks .swiper-slide {
   width: auto;
-  margin-right: 10px;
+  margin-right: 0px;
+  margin-top: 20px;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
   display: none;
 }
+
+.textecarte {
+  font-size: 15px;
+}
+
+.info {
+  margin-left: 42px;
+  margin-top: 20px;
+}
+
+.card-title {
+ font-size: 20px;
+}
+
+h2 {
+  margin-top:-20px;
+  font-size: 30px;
+ }
+ 
+
+
+
+#featuredArtworks .card:hover,
+#otherArtworks .card:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.02);
+}
+
+
+.footer-logo {
+  width: 120px;
+  padding-bottom: 10px;
+  }
+
+
+
