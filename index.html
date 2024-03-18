@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
-    <title>Landing Page</title>
+    <title>Mutek landing page</title>
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon-mutek.png">
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/styles-lp.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./scss/custom_bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
+
   <body data-bs-spy="scroll" data-bs-target="#mainNav">
     <header>
       <nav
@@ -31,6 +33,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#fonctionnalite">Fonctionnalités</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#view-more">Voir plus</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#section-testimonials">Témoignages</a>
@@ -63,9 +68,9 @@
             </p>
             <a href="#" class="btn btn-secondary">Téléchargez maintenant!</a>
           </div>
-          <div class="col-12 col-lg-6 justify-content-center align-items-center">
+          <div class="col-12 col-lg-6 mt-4 mt-lg-0">
             <div class="cadreApp">
-              <iframe src="./app/index.html" scrolling="no"></iframe>
+              <iframe src="./app/index.html" scrolling="yes" frameborder="0"></iframe>
             </div>
           </div>
         </div>
@@ -75,7 +80,7 @@
     <!----------------------------------->
     <!----- Section Fonctionnalités ----->
     <!----------------------------------->
-    <section class="bg-secondary mt-4 p-4" id="section-features">
+    <section class="bg-light mt-4 p-4" id="fonctionnalite">
       <div class="container">
         <div class="row">
           <div class="col text-dark">
@@ -185,10 +190,42 @@
         </div>
       </div>
     </section>
+
+    <!------------------------------->
+    <!----- Section Voir plus ------->
+    <!------------------------------->
+
+    <section class="bg-secondary" id="view-more">
+      <!-- Slider main container -->
+      <div class="swiper swiper-screenshots">
+        <h2>Prévisualisez l'interface de l'appli</h2>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/app_haut_de_page.jpg" alt="#">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/app_mi_page.jpg" alt="#">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/art_haut_de_page.jpg" alt="#">
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/screenshots_app/art_formulaire.jpg" alt="#">
+          </div>
+        </div>
+
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
     <!------------------------------->
     <!----- Section Témoignages ----->
     <!------------------------------->
-    <section id="section-testimonials" class="bg-light pt-5 pb-5">
+    <section id="section-testimonials" class="bg-light py-5">
       <div class="container">
         <!-- Première rangée -->
         <div class="row">
@@ -204,12 +241,12 @@
         <!-- Deuxième rangée -->
         <div class="row">
           <div class="col-12 col-sm-6 col-lg-3 mt-4">
-            <div class="card">
-              <div class="card-body carteTemoignage">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/harps-joseph-tAvpDE7fXgY-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class="quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
-                <img src="./assets/temoignage/harps-joseph-tAvpDE7fXgY-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait">
                 <h5 class="card-title m-3">Antoine</h5>
                 <p class="card-text m-3">
                   "Une expérience incroyable! Les performances artistiques m'ont transporté dans un autre monde. Bravo à l'équipe MUTEK!"
@@ -218,9 +255,9 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mt-4">
-            <div class="card position-relative">
-              <div class="card-body carteTemoignage">
-                <img src="./assets/temoignage/jeremy-brady-B7X7R_Q0c-c-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/jeremy-brady-B7X7R_Q0c-c-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class="quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
@@ -233,12 +270,12 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mt-4">
-            <div class="card position-relative">
-              <div class="card-body carteTemoignage">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/julian-hochgesang-DqYY6K9xkf4-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class="quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
-                <img src="./assets/temoignage/julian-hochgesang-DqYY6K9xkf4-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait">
                 <h5 class="card-title m-3">Mégane</h5>
                 <p class="card-text m-3">
                   "Le festival MUTEK est une véritable pépite. Les horaires flexibles et la facilité de navigation ont enrichi mon expérience artistique."
@@ -247,12 +284,12 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 mt-4">
-            <div class="card position-relative">
-              <div class="card-body carteTemoignage">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/nihon-graphy-M8paby2EcxU-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class=" quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
-                <img src="./assets/temoignage/nihon-graphy-M8paby2EcxU-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait">
                 <h5 class="card-title m-3">Clara</h5>
                 <p class="card-text m-3">
                   "Un événement exceptionnel! La carte interactive m'a permis de retrouver mes amis dans la foule et de partager des moments inoubliables."
@@ -261,12 +298,12 @@
             </div>
           </div>
           <div class="col-12 col-sm-6 col-lg-3 offset-lg-3 mt-4">
-            <div class="card position-relative">
-              <div class="card-body carteTemoignage">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class="quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
-                <img src="./assets/temoignage/noemi-macavei-katocz-or6mrFMVmHM-unsplash.jpg" alt="#" class="img-fluid mb-2 portrait">
                 <h5 class="card-title m-3">Noémie</h5>
                 <p class="card-text m-3">
                   "MUTEK a su capturer mon cœur avec sa programmation diversifiée. L'achat de billets intégré a facilité tout le processus."
@@ -274,13 +311,14 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-6 col-lg-3 mt-4">
-            <div class="card position-relative">
-              <div class="card-body carteTemoignage">
+          <div class="col-12 col-sm-6 col-lg-3 mt-4 ">
+            <div class="card border-primary rounded">
+              <img src="./assets/temoignage/thought-catalog--v7EOw5SA4I-unsplash (1).jpg" alt="#" class="img-fluid mb-2 portrait card-img-top">
+              <div class="card-body">
                 <div class="quote">
                   <i class="bi bi-chat-quote fs-1"></i>
                 </div>
-                <img src="./assets/temoignage/thought-catalog--v7EOw5SA4I-unsplash (1).jpg" alt="#" class="img-fluid mb-2 portrait">
+                
                 <h5 class="card-title m-3">Clara</h5>
                 <p class="card-text m-3">
                   "Les produits MUTEK sont à la hauteur de l'innovation du festival. J'ai adoré acheter mes souvenirs directement depuis l'appli!"
@@ -444,7 +482,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body ">
             <form>
               <div class="mb-3">
                 <label for="email" class="form-label visually-hidden"
@@ -513,7 +551,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

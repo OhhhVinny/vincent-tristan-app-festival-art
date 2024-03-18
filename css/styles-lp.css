@@ -14,20 +14,53 @@ footer a[href="https://github.com/OhhhVinny/vincent-tristan-app-festival-art.git
   transform: scale(1.01);
 }
 /*----- Styles Hero -----*/
-.cadreApp {
-}
 
-iframe {
-  aspect-ratio: 5/9;
+.cadreApp iframe {
   width: 100%;
+  height: 100%;
   max-width: 400px;
+  aspect-ratio: 5/9;
+  border: 3px solid var(--bs-primary);
+  border-radius: 25px;
 }
 
 #hero {
   padding-top: 100px;
 }
 
-/*----- Styles fonctionnalite -----*/
+/*----- Styles view more -----*/
+
+#view-more {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.swiper-screenshots {
+  width: 80%;
+  text-align: center;
+  color: var(--bs-white);
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 5/9;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+  border: 3px solid var(--bs-primary);
+  border-radius: 25px;
+}
 
 /*----- Styles Accordeon -----*/
 
@@ -40,14 +73,15 @@ iframe {
 }
 
 /*----- Styles temoignage -----*/
-.carteTemoignage {
-  border: 4px solid var(--bs-primary);
-}
 
 .portrait {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.card {
+  height: 100%;
 }
 
 .card-title {
@@ -57,8 +91,8 @@ iframe {
 .quote {
   color: var(--bs-primary);
   position: absolute;
-  top: -10px;
-  left: 0;
+  top: -25px;
+  left: -15px;
 }
 
 /*----- Styles infolettre -----*/
@@ -85,8 +119,4 @@ iframe {
   border-radius: 10px;
   border: 4px solid var(--bs-white);
   margin-top: 20px;
-}
-
-.modalInput {
-  height: 40px;
 }
